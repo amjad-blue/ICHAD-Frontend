@@ -246,7 +246,7 @@
 
 
 
-.resources-section .card-link {display: flex;align-items: center;gap: var(--spacer-4);text-decoration: unset;color: var(--primary-color);padding: 14px;border: 1px solid var(--extra-light-gray);border-radius: var(--radius-2);}
+.resources-section .card-link {display: flex;align-items: center;gap: var(--spacer-3);text-decoration: unset;color: var(--primary-color);padding: 14px;border: 1px solid var(--extra-light-gray);border-radius: var(--radius-2);}
 .resources-section .icon-wrapper {width: 50px;aspect-ratio: 1;display: flex;align-items: center;justify-content: center;background: hsl(342 64% 96% / 1);border-radius: 50%;}
 .resources-section .column-actions > * + * {margin-top: var(--spacer-3);}
 .resources-section .icon-wrapper > span {font-size: 20px;}

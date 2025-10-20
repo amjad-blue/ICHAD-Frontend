@@ -36,8 +36,26 @@ function handleHomePage() {
 		// Initialize scroll header functionality
 		initScrollHeader();
 
+		// Initialize card title height equalization
+		initCardTitleHeights();
+
 	}
 }
+
+function initCardTitleHeights() {
+	const cardTitles = document.querySelectorAll(".analysis-section .card-link .card-title");
+	if (cardTitles.length === 0) return;
+
+	let maxValue = 0;
+	cardTitles.forEach(item => {
+		if (item.offsetHeight > maxValue) maxValue = item.offsetHeight;
+	});
+	
+	cardTitles.forEach(item => {
+		item.style.minHeight = maxValue + "px";
+	});
+}
+
 
 function initVideoControls() {
 	const video = document.querySelector('video');
