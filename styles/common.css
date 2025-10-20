@@ -81,7 +81,7 @@ main {}
 .breadcrumbs .breadcrumb__item:last-child a {pointer-events: none;font-weight: var(--font-bold)}
 .breadcrumb__item:not(:last-child):after {content: "-";display: inline-block;margin-inline-start: calc(var(--gap));}
 .lg-item {inset: 0;}
-.section-title {display: flex;align-items: center;gap: var(--spacer-2);margin-bottom: var(--spacer-3);font-size: var(--font-size-title-md);font-weight: var(--font-bold);position: relative;}
+.section-title {display: flex;align-items: center;gap: var(--spacer-2);margin-bottom: var(--spacer-3);font-size: var(--font-size-title-md);position: relative;}
 /*.section-title:before {content: "";width: 2px;background: var(--primary-color);height: 40px;}*/
 
 .section-description {font-size: var(--font-size-body-md);margin-bottom: var(--spacer-2);color: var(--gray-dark);line-height: 1.6}
