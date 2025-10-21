@@ -237,7 +237,7 @@ li.nav-item {
 /*footer styles*/
 
 .footer {background: var(--accent-gold);padding-block: 20px;}
-.footer .footer-navs {display: flex;gap: var(--spacer-6);flex: 1;}
+.footer .footer-navs {display: flex;gap: var(--spacer-5);flex: 1;}
 .footer .footer-top {display: flex;}
 .footer .nav-list .list-item > a {color: white;text-decoration: unset;font-style: normal;display: flex;align-items: center;gap: var(--spacer-2);}
 .footer .nav-title {color: white;font-size: var(--font-size-title-sm);font-weight: var(--font-bold);margin-bottom: var(--spacer-3);}
@@ -249,7 +249,7 @@ li.nav-item {
 .footer .nav-list .list-item > a .value {font-size: var(--font-size-body-sm);}
 .footer .form-title {color: white;font-size: var(--font-size-title-sm);font-weight: var(--font-bold);margin-bottom: var(--spacer-3);}
 .footer .form-label {display: flex;flex-direction: column;}
-.footer .form-column {display: flex;align-items: start;gap: var(--spacer-3);color: white;}
+.footer .form-column {display: flex;align-items: start;gap: var(--spacer-2);color: white;}
 .footer .label-value {font-size: var(--font-size-body-sm);display: block;}
 .footer .form-label input[type="email"] {border: 1px solid var(--accent-beige);background: transparent;padding: 5px 10px;outline: unset;border-radius: var(--radius-1);color: white;}
 .footer .form-label input[type="email"]::placeholder {color: var(--accent-beige);}
